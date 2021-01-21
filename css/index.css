@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+:root{
+    --text-color: white;
+    --box-color: #37474f;
+}
+
+header{
+    background-color: var(--box-color);
+    border-radius: 10px;
+}
+
+.pageTitle{
+    text-align: center;
+    font-size: 60px;
+    margin-top: 10px;
+}
+
+.groupMembers p{
+    display: inline-block;
+    width: 20%;
+    margin-top: -10px;
+}
+
+.groupMembers{
+    text-align: center; 
+    margin-top: -35px;
+}
+
+body{
+    background: rgb(50,42,200);
+    background: linear-gradient(0deg, rgba(50,42,200,1) 0%, rgba(47,86,163,1) 50%, rgba(51,113,125,1) 100%);
+    font-family: Open Sans;
+    color: var(--text-color);
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.intro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding-top: 100px;
+}
+
+.introText{
+    background-color: var(--box-color);
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.rights{
+    background-color: var(--box-color);
+    width: 50%;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 10px;
+    font-size: 30px;
+}
+
+li{
+    list-style: none;
+}
+
+.privacy, .accountability, .access{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.dec1, .dec2, .dec3{
+    margin-top: 100px;
+    margin-bottom: -10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+.privacyText, .accountabilityText, .accessText{
+    background-color: var(--box-color);
+    width: 50%;
+    height: 400px;
+    margin-right: 10px;
+    border-radius: 10px;
+}
+
+.privacyImg, .accountabilityImg, .accessImg{
+    background-color: var(--box-color);
+    width: 50%;
+    height: 400px;
+    margin-left: 10px;
+    border-radius: 10px;
+}
+
