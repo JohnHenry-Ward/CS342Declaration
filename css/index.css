@@ -40,7 +40,6 @@ body{
     display: flex;
     align-items: center;
     justify-content: center;
-    padding-top: 100px;
 }
 
 .introText{
@@ -60,8 +59,20 @@ body{
     font-size: 30px;
 }
 
+.rights p{
+    text-align: center;
+    margin-top: 5px;
+}
+
 li{
     list-style: none;
+    text-align: left;
+    margin-bottom: 55px;
+}
+
+li a{
+    color: (var(--text-color));
+    text-decoration: none;
 }
 
 .privacy, .accountability, .access{
