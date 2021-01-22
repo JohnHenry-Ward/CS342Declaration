@@ -46,7 +46,6 @@ body{
 .introText{
     background-color: var(--box-color);
     width: 50%;
-    height: 400px;
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -60,7 +59,6 @@ body{
 .rights{
     background-color: var(--box-color);
     width: 50%;
-    height: 400px;
     margin-left: 10px;
     border-radius: 10px;
     font-size: 30px;
@@ -99,7 +97,7 @@ li a{
 .privacyText, .accountabilityText, .accessText{
     background-color: var(--box-color);
     width: 50%;
-    height: 400px;
+    
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -130,3 +128,43 @@ li a{
     border-radius: 10px;
 }
 
+figcaption{
+    font-size: 12px;
+    text-align: center;
+    padding-top: 5px;    
+}
+
+@media(max-width: 1000px){
+    .intro{
+        display: block;
+    }
+
+    .introText{
+        width: 100%;
+    }
+
+    .rights{
+        width: 100%;
+    }
+
+    .rights ul{
+        padding: 0;
+    }
+
+    .rights li{
+        text-align: center;
+    }
+
+    .privacy, .accountability, .access{
+        display: block;
+    }
+
+    .privacyText, .accountabilityText, .accessText{
+        width: 100%;
+    }
+
+    .privacyImg, .accountabilityImg, .accessImg{
+        width: 100%;
+        margin: 0;
+    }
+}
