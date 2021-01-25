@@ -97,7 +97,6 @@ li a{
 .privacyText, .accountabilityText, .accessText{
     background-color: var(--box-color);
     width: 50%;
-    
     margin-right: 10px;
     border-radius: 10px;
 }
@@ -119,6 +118,7 @@ li a{
 
 .privacyImg img, .accountabilityImg img, .accessImg img{
     width: 90%;
+    height: 90%;
     position: absolute;
     margin: auto;
     top: 0;
